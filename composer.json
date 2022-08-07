@@ -1,0 +1,28 @@
+{
+    "name": "vovakeinashvili/custom-mvc",
+    "autoload": {
+        "psr-4": {
+            "app\\": "./"
+        },
+        "files": [
+            "helpers/helpers.php",
+            "config.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Vladimer Keinashvili",
+            "email": "vovakeinashvili@gmail.com"
+        }
+    ],
+    "require": {
+        "ext-pdo": "*"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "prepend-autoloader": false,
+        "platform": {
+            "php": "8.0"
+        }
+    }
+}
